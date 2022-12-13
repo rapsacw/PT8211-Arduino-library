@@ -1,5 +1,5 @@
 # PT8211-Arduino-library
-Quick and easy routines for the cheapest DAC available today.
+Quick and easy routines for the cheapest DAC available today.<br>
 Install:<br>
 Copy the pt8211 folder and its contents to your arduino library folder.<br>
 
