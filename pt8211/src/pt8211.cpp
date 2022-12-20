@@ -7,6 +7,8 @@
 // wsl,din sampled on rising edge of bck and data is output after receiving 16 bits of data for each channel.
 // The output voltage can be set between ~0.8V .. ~2.5V in 65536 steps
 
+unsigned char pin_8211_din, pin_8211_bck, pin_8211_ws;
+
 void PT8211_out(unsigned short left, unsigned short right)
 {
   int i;
